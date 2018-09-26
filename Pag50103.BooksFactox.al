@@ -1,48 +1,51 @@
-page 50102 "Books List"
+page 50103 "Books Factox"
 {
-    PageType = List;
+    PageType = CardPart;
     SourceTable = Book;
-    Editable = false;   
-    CardPageId = "Book Card";
-    Caption = 'Books';
-    ApplicationArea = All;
-    UsageCategory = Lists; 
+    caption = 'Books Factbox';
+
     layout
     {
         area(content)
         {
-            repeater(BookRepeater)
+            group("Customer Books")
             {
                 field("No."; "No.")
                 {
+                    DrillDownPageId = "Book Card";
                     ApplicationArea = all;
                 }
-                 field(Title; Title)
+                field(Title; Title)
                 {
                     ApplicationArea = all;
                 }
-                field("No. of Customers";"No. of Customers")
+                Field(Autor; Autor)
                 {
                     ApplicationArea = all;
                 }
+                field("No. of Customers"; "No. of Customers")
+                {
+                    ApplicationArea = all;
+                }
+
             }
         }
     }
-    
+
     actions
     {
         area(processing)
         {
-            action(Card)
+            action(ActionName)
             {
-                Promoted = true;
-                ApplicationArea = all;
                 trigger OnAction()
                 begin
-                    page.Run(50100,Rec);
+
                 end;
             }
         }
     }
 
+    var
+        myInt: Integer;
 }

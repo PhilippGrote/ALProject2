@@ -9,5 +9,14 @@ pageextension 50101 "Customer Page Extension" extends "Customer Card"
             }
 
         }
+        addfirst(FactBoxes)
+        {
+            part("Books Factbox";"Books Factox")
+            {
+                Caption = 'Books Factox';
+                SubPageLink = "No." = field("Favorite Book No.");
+                ApplicationArea = all;
+              }
+        }
     }
 } 
