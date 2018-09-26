@@ -53,8 +53,38 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Books List - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2128658532 - Action 219703930 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Books</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Books List - Action ExportBooks - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1332482799 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Books Factbox</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Books Factox - Property caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3565700325 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Book List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Book List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3565700325 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Book List - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3565700325 - Control 334629381 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Page Count</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Book List - Control ShowPageCount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="XmlPort 3706596807 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Books</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort Export Book - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3166101746 - Control 1791904537 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Books Factox</source>
+          <source>Book Details</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Page Extension - Control Books Factbox - Property Caption</note>
         </trans-unit>

@@ -13,7 +13,7 @@ pageextension 50101 "Customer Page Extension" extends "Customer Card"
         {
             part("Books Factbox";"Books Factox")
             {
-                Caption = 'Books Factox';
+                Caption = 'Book Details';
                 SubPageLink = "No." = field("Favorite Book No.");
                 ApplicationArea = all;
               }
