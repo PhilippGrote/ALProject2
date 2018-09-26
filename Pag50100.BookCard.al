@@ -3,6 +3,7 @@ page 50100 "Book Card"
     PageType = Card;
     SourceTable = Book;
     Caption = 'Book card';
+    //test pgr
     
     layout
     {
