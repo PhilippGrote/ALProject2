@@ -7,8 +7,6 @@ page 50105 "Company Information Wizard"
     UsageCategory = Administration;
     ApplicationArea = All;
     
-
-
     layout
     {
         area(content)
